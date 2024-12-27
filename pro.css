@@ -928,6 +928,96 @@ z-index: 1;
     flex-wrap: wrap;
     justify-content: center;
 }
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.end-wrapper-item{
+    text-decoration: none;
+    margin-left: 16px;
+}
+.end-wrapper-text{
+    color: rgb(196, 196, 196);
+    font-family: medium;
+    font-size: 12px;
+    font-weight:500;
+    line-height: 18px;
+    letter-spacing: -0.01px;
+    display: block;
+}
+.language-picker{
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.language-picker-inner{
+    display: flex;
+    min-height: 32px;
+}
+.picker-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding-bottom: 4px;
+    padding-left :12px;
+    padding-right :12px;
+    padding-top :4px;
+    z-index: 1;
+    border: none;
+    background-color: #f1f1f1ff;
+}
+.glob-box{
+    max-width: 100%;
+    margin-right: 8px;
+    display: flex;
+}
+.slect-control{
+    position: relative;
+    background: inherit;
+}
+.dropdown{
+    font-family: medium;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    border: none;
+    outline: none;
+    display: flex;
+    color: currentColor;
+    appearance: none;
+    margin: 0px;
+    padding: 0px;
+}
+.select-logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    right: 0px;
+    height: 24px;
+    max-height: 100%;
+    min-height: 8px;
+    background: transparent;
+    bottom: 0px;
+    margin: auto 0px;
+}
+.bilecf{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.bilecf-a{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    color: inherit;
+}
 @media screen and (min-width:768px) {
 
 .top-content{
@@ -1102,6 +1192,23 @@ z-index: 1;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
 }
+.footer-contents{
+    flex-direction: row;
+    text-align: left;
+}
+.fotter-text{
+    text-align: left;
+}
+.section-next-items{
+    flex-direction: row;
+}
+.section-next-itmes-contents{
+    text-align: left;
+
+}
+.las-end-sec{
+   flex-direction: unset;
+}
 }
 @media screen and (min-width:1024px){
     .login-heading{
@@ -1117,7 +1224,12 @@ z-index: 1;
     .link-content{
        grid-template-columns: repeat(5,1fr);
     }
-    
+    .section-next{
+        flex-direction: row;
+    }
+    .add-box-item{
+        align-items: flex-end;
+    }
 }
 @media screen and (min-width:1186px) {
     .input-bar-inner{
